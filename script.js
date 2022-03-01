@@ -1,9 +1,7 @@
     //add functionality in doc
 
     var friends = ["Chungus", "Amongus", "Fungus", "Bruhngus", "Jeb"];
-    
     var locations = ["That Room", "This Room", "Which Room", "What Room", "Whose Room", "La Biblioteca", "Closet of Murder", "Butlery", "Downstairs Room", "Upstairs Room"];
-    
     var weapons = ["Jeb", "A witching smile", "A dashing glance", "Ahh real monsters", "Railroad Tracks", "Hobo Stick", "Baby Grand", "heart shaped arrows", "red shell", "Kalimah!", "007 car", "cuppa joe", "Double Rainbow all the way", "the undead", "rusty spoon", "crusty spork", "moldy Mork", "laserbeamz dude", "a1 sauce", "b1 sauce"];
 
     for (var i = 1; i <= 100; i++) {
@@ -17,14 +15,12 @@
         //alert func
     function getAlert(i) {
         
-        var friend = friends[i%5];
-        
-        var location = locations[i%10];
-        
-        var weapon = weapons[i%20];
+        var friendo = friends[i%5];
+        var locationo = locations[i%10];
+        var weapono = weapons[i%20];
         
         function accuAlert() {
-            alert("Accused " + i + ": I accuse " + friends + " with the " + weapons + " in " + locations + "!");
+            alert("Accused " + i + ": I accuse " + friendo + " with the " + weapono + " in " + locationo + "!");
         }
         return accuAlert;
     }
